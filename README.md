@@ -4,6 +4,11 @@
 #### Purpose
 NutriMap is a software application designed to function as a powerful data tool to assist in decision-making processes aimed at combating various forms of malnutrition in Rwanda. This application serves as a prototype that could be adapted for similar use in other regions. It is tailored to support Community Health Workers (CHWs), decision-makers, donors, and top managers involved in both nutrition-sensitive and nutrition-specific interventions.
 
+#### Steps to get project running
+
+Open the link to the project to get started
+Once it is started click on home button. This will direct you to sign up and login page
+
 #### Main Features
 
 1. **Sign Up**
