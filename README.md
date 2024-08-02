@@ -6,7 +6,7 @@ NutriMap is a software application designed to function as a powerful data tool 
 
 #### Steps to get project running
 
-Open the link to the project to get started
+Open the link via MicroSoft Edge: https://heritiers.github.io/NutriMap/index.html to the project to get started
 Once it is started click on home button. This will direct you to sign up and login page
 
 #### Main Features
