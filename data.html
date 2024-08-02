@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NutriMap Software - Data Entry</title>
+    <link rel="stylesheet" href="data.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="https://github.com/HeritierS/Hello_World/blob/main/Screenshot%202024-06-29%20185742.png?raw=true" alt="NutriMap Logo" class="logo">
+            <h1>NutriMap Software</h1>
+            <nav>
+                <a href="index.html" class="button">Home</a>
+            </nav>
+        </div>
+    </header>
+    <main class="data-entry-container">
+        <section class="data-entry">
+            <h2>Data Entry</h2>
+            <form action="/submit_data" method="post">
+                <label for="country">Country:</label>
+                <select id="country" name="country" required>
+                    <option value="rwanda">Rwanda</option>
+                    <option value="kenya">Kenya</option>
+                    <option value="uganda">Uganda</option>
+                    <!-- Add more countries as needed -->
+                </select>
+
+                <label for="child-name">Child's Name:</label>
+                <input type="text" id="child-name" name="child-name" required>
+
+                <label for="caregiver-name">Caregiver's Name:</label>
+                <input type="text" id="caregiver-name" name="caregiver-name" required>
+
+                <label for="age">Age of the Child (months):</label>
+                <input type="number" id="age" name="age" min="0" required>
+
+                <label for="weight">Weight of the Child (kg):</label>
+                <input type="number" id="weight" name="weight" step="0.01" min="0" required>
+
+                <label for="height">Height of the Child (cm):</label>
+                <input type="number" id="height" name="height" step="0.1" min="0" required>
+
+                <label for="muac">MUAC of the Child (cm):</label>
+                <input type="number" id="muac" name="muac" step="0.1" min="0" required>
+
+                <label for="address">Address:</label>
+                <textarea id="address" name="address" required></textarea>
+
+                <button type="submit" class="btn-submit">Submit Data</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="contact-info">
+                <h3>Contact Info</h3>
+                <p>Email: info@nutrimap.com</p>
+                <p>Phone: +123 456 7890</p>
+            </div>
+            <div class="address">
+                <h3>Address</h3>
+                <p>123 Nutrition St, Healthy City, Wellness Country</p>
+            </div>
+            <div class="social-media">
+                <h3>Follow Us</h3>
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,118 @@
+/* styles.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    height: 50px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+header nav .button {
+    background-color: #ffffff;
+    color: #4CAF50;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+header nav .button:hover {
+    background-color: #e8e8e8;
+}
+
+/* Main Section Styles */
+main {
+    padding: 40px 0;
+}
+
+.nutrition-status {
+    text-align: center;
+    padding: 20px;
+    background-color: #e8f5e9;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.nutrition-status h2 {
+    margin-top: 0;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.box {
+    background-color: #81C784;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    flex: 1 1 200px;
+    text-align: center;
+}
+
+.box a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.box a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #388E3C;
+    color: white;
+    padding: 20px 0;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer h3 {
+    margin-top: 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

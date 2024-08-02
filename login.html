@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NutriMap Software - Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="https://github.com/HeritierS/Hello_World/blob/main/Screenshot%202024-06-29%20185742.png?raw=true" alt="NutriMap Logo" class="logo">
+            <h1>NutriMap Software</h1>
+            <nav>
+                <a href="index.html" class="button">Home</a>
+            </nav>
+        </div>
+    </header>
+    <main class="login-container">
+        <section class="login">
+            <h2>Login</h2>
+            <form action="/login" method="post">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+
+                <label for="role">Login as:</label>
+                <select id="role" name="role">
+                    <option value="health_worker">Health Worker</option>
+                    <option value="decision_maker">Decision Maker</option>
+                    <option value="admin">Admin</option>
+                </select>
+                
+                <button type="submit" class="btn-login">Sign In</button>
+            </form>
+            <div class="signup-link">
+                <p>Don't have an account? <a href="#signup">Sign Up</a></p>
+            </div>
+        </section>
+        <section id="signup" class="signup">
+            <h2>Sign Up</h2>
+            <form action="/signup" method="post">
+                <label for="new-username">Username:</label>
+                <input type="text" id="new-username" name="new-username" required>
+
+                <label for="new-password">Password:</label>
+                <input type="password" id="new-password" name="new-password" required>
+
+                <label for="new-role">Sign up as:</label>
+                <select id="new-role" name="new-role">
+                    <option value="health_worker">Health Worker</option>
+                    <option value="decision_maker">Decision Maker</option>
+                    <option value="admin">Admin</option>
+                </select>
+                
+                <button type="submit" class="btn-signup">Register</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="contact-info">
+                <h3>Contact Info</h3>
+                <p>Email: info@nutrimap.com</p>
+                <p>Phone: +123 456 7890</p>
+            </div>
+            <div class="address">
+                <h3>Address</h3>
+                <p>123 Nutrition St, Healthy City, Wellness Country</p>
+            </div>
+            <div class="social-media">
+                <h3>Follow Us</h3>
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
